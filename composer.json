@@ -1,0 +1,30 @@
+{
+    "name": "augustash/module-fixwysiwygsymlink",
+    "license": "OSL-3.0",
+    "type": "magento2-module",
+    "description": "Allow admins to choose if symlinked directories are allowed for the pub/media and wysiwyg directories",
+    "require": {
+        "augustash/module-core": "~1.0.0",
+        "augustash/module-logger": "~1.0.0"
+    },
+    "authors":[
+        {
+            "name":"Josh Johnson",
+            "email":"josh@augustash.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Augustash\\FixWysiwygSymlink\\": ""
+        }
+    },
+    "repositories": {
+        "augustash-core": {
+            "type": "vcs",
+            "url": "https://github.com/augustash/magento2-module-fixwysiwygsymlink.git"
+        }
+    }
+}
