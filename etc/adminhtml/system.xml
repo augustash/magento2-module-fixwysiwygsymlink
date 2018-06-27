@@ -3,7 +3,7 @@
     <system>
         <section id="augustash_fixwysiwygsymlink" translate="label" type="text" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
             <class>separator-top</class>
-            <label><![CDATA[Unsalable]]></label>
+            <label><![CDATA[Fix WYSIWYG Symlnik]]></label>
             <tab>augustash</tab>
             <resource>Augustash_FixWysiwygSymlink::config</resource>
             <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
